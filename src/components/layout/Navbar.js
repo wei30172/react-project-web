@@ -10,7 +10,7 @@ const Navbar = (props) => {
     return (
         <nav className="nav-wrapper gray darken-3">
             <div className="container">
-                <Link to="/" className="brand-logo">Projects Web</Link>
+                <Link to="/" className="brand-logo left">Projects Web</Link>
                 { auth.isLoaded && Links }
             </div>
         </nav>
